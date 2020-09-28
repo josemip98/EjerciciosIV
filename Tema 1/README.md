@@ -24,8 +24,11 @@ Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/sho
 # Ejercicio 4
 ## Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. Usar siempre que sea posible un hipervisor que sea software libre.
 
+Para este ejercicio voy a utilizar VirtualBox
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/VirtualBox.png)
+
 # Ejercicio 5
 ## Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube libres como los mencionados en los párrafos anteriores, aunque sea temporalmente. Si la prueba es menos de un mes, simplemente anotarlo y dejarlo para el mes de diciembre, más o menos.
 
 Para esta parte voy a utilizar Microsoft Azure, proporciona un mes de prueba gratis pero he decidido no resgistrarme aún.
-![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/"Tema 1"/Images/azure.png)
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/azure.png)
