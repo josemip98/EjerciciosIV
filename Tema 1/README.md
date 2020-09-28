@@ -4,16 +4,16 @@
 Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/shop/cty/pdp/spd/poweredge-r940xa/emea_r940xa_vi_vp)
 
 1º- Calculamos el precio con su IVA (21%):
-  81.164,88 * 21 / 100 = 17044,6248€
-  81.164,88 + 17044,6248 = 98209,5048€
+ - 81.164,88 * 21 / 100 = 17044,6248€
+ - 81.164,88 + 17044,6248 = 98209,5048€
 
 2º- Calculamos su coste de amortización a cuatro y siete años:
 - Para 4 años:
-    Máximo de amortización anual es: 25%
-    98209,5048 * 25 / 100 = 24552,3762€ / año
+   - Máximo de amortización anual es: 25%
+   - 98209,5048 * 25 / 100 = 24552,3762€ / año
 - Para 7 años:
-    100/7 = 14,3% amortización anual
-    98209,5048 * 17 / 100 = 16695,615816€ / año
+   - 100/7 = 14,3% amortización anual
+   - 98209,5048 * 17 / 100 = 16695,615816€ / año
     
 # Ejercicio 2
 ## Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa solo el 1% o el 10% del tiempo.
