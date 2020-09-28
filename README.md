@@ -1,2 +1,2 @@
 # EjerciciosIV
-Ejercicios para la asignatura de Infraestructura Virtual de la UGR
+Ejercicios para la asignatura de Infraestructura Virtual
