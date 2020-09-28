@@ -1,7 +1,7 @@
 # Ejercicio 1
 ## Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años. Consultar este artículo en Infoautónomos sobre el tema.
 
-Para el ejercicio he elegido el siguiente servidor [enlace en línea](https://www.dell.com/es-es/work/shop/cty/pdp/spd/poweredge-r940xa/emea_r940xa_vi_vp)
+Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/shop/cty/pdp/spd/poweredge-r940xa/emea_r940xa_vi_vp)
 
 1º- Calculamos el precio con su IVA (21%):
   81.164,88 * 21 / 100 = 17044,6248€
