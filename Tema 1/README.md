@@ -26,3 +26,6 @@ Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/sho
 
 # Ejercicio 5
 ## Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube libres como los mencionados en los párrafos anteriores, aunque sea temporalmente. Si la prueba es menos de un mes, simplemente anotarlo y dejarlo para el mes de diciembre, más o menos.
+
+Para esta parte voy a utilizar Microsoft Azure, proporciona un mes de prueba gratis pero he decidido no resgistrarme aún.
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/"Tema 1"/Images/azure.png)
