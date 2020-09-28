@@ -18,15 +18,31 @@ Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/sho
 # Ejercicio 2
 ## Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa solo el 1% o el 10% del tiempo.
 
+Este es el servidor virtual privado que he elegido con la configuración media baja en la cual pagando 10,58€ al mes tenemos 2vCore, 4GB RAM, 80GB SSD de almacenamiento y 500 Mbit/s ilimitado de ancho de banda.
+
+Su coste en un año sería de 126,96€
+
+Para servicio en la nube con unas característica casi similares 2vCPU y 4GB RAM el precio es de 0,072€ por hora.
+
+Suponiendo que se usa el 10% del tiempo de 1 día.
+
+24 * 10/100 = 2,4 horas de uso diario
+
+Luego al dia cuesta 0,18€, al mes 5,2€
+
+Su coste en un año sería de 62,21€
+
+En conclusión vemos que cloud es mas rentable si es utilizado solo ese 10% del día y en este por lo general solo pagamos lo que utilizamos, además que nos ofrece algunas facilidades más para ir ampliando lo que necesitemos. Mientras que en el servidor privado tenemos siempre un coste fijo de algo que se puede utilizar o no, depende del servicio que se ofrezca sera más rentable uno u otro.
+
 # Ejercicio 3
 ## En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?
 
-**Comando:** `cat /proc/cpuinfo`
-**Salida por pantalla:**
+- **Comando:** `cat /proc/cpuinfo`
+- **Salida por pantalla:**
 ![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/cpuinfo.png)
 
-**Comando:** `egrep '^flags.*(vmx|svm)' /proc/cpuinfo`
-**Salida por pantalla:**
+- **Comando:** `egrep '^flags.*(vmx|svm)' /proc/cpuinfo`
+- **Salida por pantalla:**
 ![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/flags.png)
 
 # Ejercicio 4
