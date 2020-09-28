@@ -21,8 +21,12 @@ Para el ejercicio he elegido este [servidor](https://www.dell.com/es-es/work/sho
 # Ejercicio 3
 ## En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?
 
+**Comando:** `cat /proc/cpuinfo`
+**Salida por pantalla:**
 ![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/cpuinfo.png)
 
+**Comando:** `egrep '^flags.*(vmx|svm)' /proc/cpuinfo`
+**Salida por pantalla:**
 ![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%201/Images/flags.png)
 
 # Ejercicio 4
