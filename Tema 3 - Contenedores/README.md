@@ -1,0 +1,1 @@
+# Virtualización ligera usando contenedores
