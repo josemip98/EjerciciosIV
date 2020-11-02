@@ -44,9 +44,32 @@
 + Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
 Para darme de alta he accedido a la web de **Travis** y me he registrado.
-Después lo he activado en todos mis repositorios y he creado un fichero .trvis.yml en el directorio raiz del repositorio de mi proyecto.
-
+Después lo he activado en todos mis repositorios.
 ![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%202%20-%20TDD/Images/RegistroTravis.png)
 
 # Ejercicio 10
 ## Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
+
+He creado en el repositorio de mi aplicación el archivo .travis.yml con las siguientes secciones:
+
++ Language: node_js
+
+Aqui indicamos el lenguaje que estamos usando.
+
++ node_js: 8.10.0 
+
+Esto indica las versiones a probar.
+
++ before_install:
+	+ npm install -g jest
+	+ npm install -g gulp
+
+Esto se ejecuta antes de la instalación de nuestra aplicación (npm install), en mi caso instalo jest y gulp para las pruebas de test.
+
++ script: gulp test
+
+Con esta sección lanzo los tests con gulp
+.
+Finalmente, cada vez que hagamos un push, se lanzará Travis y comprobará que lo que hemos añadido al proyecto pasan los tests.
+
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%202%20-%20TDD/Images/travis.png)
