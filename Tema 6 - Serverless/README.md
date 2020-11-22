@@ -20,8 +20,24 @@ Para trabajar en local, nos descargaremos el CLI, ejecutando `npm install -g fir
 # Ejercicio 2
 ## Tomar alguna de las funciones de prueba de Vercel, y hacer despliegues de prueba con el mismo.
 
+En el repositorio [TestingVercel](https://github.com/josemip98/TestingVercel) está lo utilizado para las pruebas.
+
+Primero como vemos en las capturas del ejercicio anterior me he dado de alta y he enlazado el repositorio de GitHub.
+
+Después lo he desplegado.
+
+![firebase](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%206%20-%20Serverless/Images/despligueVercel.png)
+
+![firebase](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%206%20-%20Serverless/Images/funcionVercel.png)
+
+Y este sería el resultado:
+
+![firebase](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%206%20-%20Serverless/Images/helloVercel.png)
+
 # Ejercicio 3
 ## Tomar alguna de las funciones de prueba de Netlify, y hacer despliegues de prueba con el mismo.
+
+En el repositorio [TestingNetlify](https://github.com/josemip98/TestingNetlify) está lo utilizado para las pruebas.
 
 Primero me he dado de alta en Netlify.
 
