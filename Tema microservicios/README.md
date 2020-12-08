@@ -9,7 +9,7 @@ Lo primero que debemos hacer es instalar etcd3
 
 `etcd --version`
 
-![imagen]()
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/etcd-version.png)
 
 A continuación, mediante la línea de órdenes vamos a almacenar nuestra clave.
 
@@ -21,11 +21,15 @@ A continuación, mediante la línea de órdenes vamos a almacenar nuestra clave.
 
 La biblioteca que funciona bien con nuestro lenguaje es etcd3 y para realizar nuestro programa, si nos dirigimos a esta página oficial vemos un pequeño ejemplo que podemos usar de guía.
 
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/programa.png)
+
 Si ahora ejecutamos el programa:
 
 `node programa.js`
 
 Vemos que efectivamente obtenemos la clave establecida:
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/resultadoPrograma.png)
 
 # Ejercicio 2 y 3
 ## Realizar una aplicación básica que use express para devolver alguna estructura de datos del modelo que se viene usando en el curso.
@@ -38,14 +42,25 @@ Lo primero que debemos hacer es instalar el módulo express.
 
 A continuación creamos nuestra aplicación básica.
 
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/api.png)
+
 Como vemos tenemos nuestra página principal, que simplemente nos indica que está funcionando correctamente, una página que nos dará la bienvenida y otra que sería la sección correspondiente a la asignatura de IV. Hemos añadido la sección de información de una asignatura para probar el método put con el cual pasamos parámetros a nuestra función. El inconveniente es que put no puede probarse desde el navegador por tanto tendremos que comprobar que funciona mediante la línea de órdenes.
 
 Para lanzar el servicio ponemos en nuestra terminal:
 
-node api-basica.js
+node api.js
+
 Y nos aparecerá el siguiente mensaje:
 
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/nodeApi.png)
+
 A continuación vamos a realizar una serie de pruebas.
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/resultadoApi1.png)
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/resultadoApi2.png)
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/resultadoApi3.png)
 
 # Ejercicio 4
 ## Crear pruebas para las diferentes rutas de la aplicación.
@@ -58,7 +73,11 @@ Como se indica en el guión vamos a usar la librería de aserciones supertest, y
 
 A continuación debemos crear los tests necesarios y para ello podemos hacer uso de la documentación oficial de dicha librería.
 
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/test.png)
+
 Y haciendo uso de Jest comprobamos que funcionan correctamente.
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/resultadoTest.png)
 
 # Ejercicio 5
 ## Experimentar con diferentes gestores de procesos y servidores web front-end para un microservicio que se haya hecho con antelación, por ejemplo en la sección anterior.
@@ -88,4 +107,9 @@ Donde podemos percibir como la carga de CPU varía entre las diferentes instanci
 
 Para llevar a cabo esta prueba podemos utilizar npm, que es un gestor de tareas un poco más simple que grunt o gulp pero que sirve perfectamente para realizar lo que se nos pide. Simplemente debemos establecer las tareas a realizar en nuestro fichero package.json de esta manera:
 
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/package.png)
 
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/npmStart.png)
+
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/npmStop.png)
