@@ -44,7 +44,7 @@ A continuación creamos nuestra aplicación básica.
 
 ![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/api.png)
 
-Como vemos tenemos nuestra página principal, que simplemente nos indica que está funcionando correctamente, una página que nos dará la bienvenida y otra que sería la sección correspondiente a la asignatura de IV. Hemos añadido la sección de información de una asignatura para probar el método put con el cual pasamos parámetros a nuestra función. El inconveniente es que put no puede probarse desde el navegador por tanto tendremos que comprobar que funciona mediante la línea de órdenes.
+Como vemos tenemos nuestra página principal, que simplemente nos indica que está funcionando correctamente y otra página que nos dará la bienvenida.
 
 Para lanzar el servicio ponemos en nuestra terminal:
 
@@ -65,13 +65,11 @@ A continuación vamos a realizar una serie de pruebas.
 # Ejercicio 4
 ## Crear pruebas para las diferentes rutas de la aplicación.
 
-crear pruebas para las diferentes rutas de la aplicación.
-
-Como se indica en el guión vamos a usar la librería de aserciones supertest, y para ello debemos instalarla.
+Vamos a usar la librería de aserciones supertest, y para ello debemos instalarla.
 
 `npm install supertest --save-dev`
 
-A continuación debemos crear los tests necesarios y para ello podemos hacer uso de la documentación oficial de dicha librería.
+A continuación debemos crear los tests necesarios.
 
 ![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/test.png)
 
@@ -82,26 +80,6 @@ Y haciendo uso de Jest comprobamos que funcionan correctamente.
 # Ejercicio 5
 ## Experimentar con diferentes gestores de procesos y servidores web front-end para un microservicio que se haya hecho con antelación, por ejemplo en la sección anterior.
 
-Vamos a comenzar probando con pm2 y para ello lo debemos instalar.
-
-`npm install -g pm2`
-
-A continuación arrancamos 5 instancias de nuestro programa de manera que se equilibrará la carga entre ellas.
-
-`pm2 start api-basica.js -i 5`
-
-Si queremos ver los logs simplemente ponemos:
-
-pm2 logs
-
-
-Además, en esta página vi que podemos tener un panel de control en tiempo real poniendo:
-
-pm2 monit
-Y veríamos lo siguiente:
-
-Donde podemos percibir como la carga de CPU varía entre las diferentes instancias.
-
 # Ejercicio 6
 ## Usar rake, invoke o la herramienta equivalente en tu lenguaje de programación para programar diferentes tareas que se puedan lanzar fácilmente desde la línea de órdenes.
 
@@ -109,7 +87,14 @@ Para llevar a cabo esta prueba podemos utilizar npm, que es un gestor de tareas 
 
 ![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/package.png)
 
+Ya podemos ejecutar la orden:
+
+`npm start`
 
 ![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/npmStart.png)
+
+Y a orden:
+
+`npm stop`
 
 ![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20microservicios/Images/npmStop.png)
