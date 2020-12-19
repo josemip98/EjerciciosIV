@@ -45,7 +45,7 @@
 
 Para darme de alta he accedido a la web de **Travis** y me he registrado.
 Después lo he activado en todos mis repositorios.
-![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%202%20-%20TDD/Images/RegistroTravis.png)
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20TDD/Images/RegistroTravis.png)
 
 # Ejercicio 10
 ## Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
@@ -72,4 +72,4 @@ Con esta sección lanzo los tests con gulp
 .
 Finalmente, cada vez que hagamos un push, se lanzará Travis y comprobará que lo que hemos añadido al proyecto pasan los tests.
 
-![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%202%20-%20TDD/Images/travis.png)
+![Error mostrar imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20TDD/Images/travis.png)
