@@ -5,7 +5,7 @@
 
 Para este ejercicio me he registrado en **Heroku**.
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/registroHeroku.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/registroHeroku.png)
 
 ## Ejercicio 2
 ## Crear una aplicación en OpenShift o en algún otro PaaS en el que se haya dado uno de alta. Realizar un despliegue de prueba usando alguno de los ejemplos incluidos con el PaaS.
@@ -16,15 +16,15 @@ En mi caso voy a trabajar con **Heroku**, en primer lugar debemos instalar rl CL
 
 Después debemos hacer login:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/login.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/login.png)
 
 Nos descargamos la carpeta que nos da Heroku para hacer el despliegue de prueba:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/gitclone.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/gitClone.png)
 
 Desde el cli hacemos heroku create en una carpeta donde tengamos la aplicación:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/create.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/create.png)
 
 ## Ejercicio 3
 ## Instalar y echar a andar tu primera aplicación en Heroku.
@@ -36,15 +36,15 @@ Este ejercicio se ha realizado en el ejercicio anterior.
 
 Nos descargamos foreman:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/foreman.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/foreman.png)
 
 E iniciamos localmente la aplicacion:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/start.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/start.png)
 
 Tambien podemos arrancarla con heroku:
 
-![Registroheroku](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/scale.png)
+![imagen](https://github.com/josemip98/EjerciciosIV/blob/master/Tema%20Paas/Images/scale.png)
 
 Si nos dirijimos a la direccion localhost:5000:
 
